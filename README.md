@@ -14,18 +14,18 @@ This project can be easily deployed to OSX or Linux via the following method. We
 OSX:
 
 * Install brew
-** Paste into terminal: /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+* Paste into terminal: /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 * Install virtualenv
-** Paste into terminal: pip install virtualenv
+* Paste into terminal: pip install virtualenv
 * Create virtualenv directory/project
-** Navigate to top directory to contain virtual environment (I use ~/Projects) with terminal (cd ~/Projects) (mkdir ~/Projects if it doesn't already exist.)
-** Paste into terminal: virtualenv entertainmentearth
-** Navigate into this virtualenv directory (cd ~/Projects/entertainmentearth)
-** Activate the virtualenv by pasting into terminal: source bin/activate
+* Navigate to top directory to contain virtual environment (I use ~/Projects) with terminal (cd ~/Projects) (mkdir ~/Projects if it doesn't already exist.)
+* Paste into terminal: virtualenv entertainmentearth
+* Navigate into this virtualenv directory (cd ~/Projects/entertainmentearth)
+* Activate the virtualenv by pasting into terminal: source bin/activate
 * Install scrapy by pasting into terminal: pip install scrapy
 * Download the project to this current directory by pasting the following into terminal: git clone https://smada@bitbucket.org/smada/entertainmentearth.git
-** Note: if you don't have git please install it by pasting the following into terminal: brew install git
-** You should have a copy of the project now in your current directory.
+* Note: if you don't have git please install it by pasting the following into terminal: brew install git
+* You should have a copy of the project now in your current directory.
 * Navigate to the project directory by pasting the following into the terminal: cd entertainmentearth
 
 
