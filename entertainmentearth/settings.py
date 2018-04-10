@@ -20,8 +20,8 @@ USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.
 URLLENGTH_LIMIT = '5000'
 COOKIES_ENABLED = True
 COOKIES_DEBUG = True
-DOWNLOAD_TIMEOUT = 360
-
+DOWNLOAD_TIMEOUT = 180
+DOWNLOAD_FAIL_ON_DATALOSS = False
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS=32
 
@@ -40,10 +40,10 @@ DOWNLOAD_TIMEOUT = 360
 #TELNETCONSOLE_ENABLED=False
 
 # Override the default request headers:
-#DEFAULT_REQUEST_HEADERS = {
-#   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-#   'Accept-Language': 'en',
-#}
+DEFAULT_REQUEST_HEADERS = {
+  'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'Accept-Language': 'en',
+}
 
 # Enable or disable spider middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
